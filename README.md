@@ -69,6 +69,10 @@ Arguments for generation are as follows:
 We also use our collected data to frame the problem of identifying hallucination
 as a binary classification task where the goal is to predict whether an utterance is faithful or not, given the source knowledge.
 
+### Configs for ablation study
+The configs for ablation study are given in the [configs](configs/) folder. The naming order of the file are as they appear in the following table: 
+
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
 #### Training
 ```bash
