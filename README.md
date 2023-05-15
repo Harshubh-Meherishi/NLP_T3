@@ -18,7 +18,6 @@ The code for all the models is available in [models](models/), which can be used
 First, install Pytorch 1.7+ from the [official website](https://pytorch.org) and then, clone this repository and install the dependencies:
 
 ```bash
-git clone git@github.com:McGill-NLP/FaithDial.git
 pip install -r requirements.txt
 ```
 
