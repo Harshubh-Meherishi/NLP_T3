@@ -4,7 +4,7 @@
 ## Overview
 This project takes a walk in the direction of architecture-based approach to alleviating hallucinations. This approach gives an insight into the interactions of different sub-modules of a transformer model (attention heads & feedforward networks) and provides a study on the impact of contrastive learning in an under-parameterized setting. As a contribution towards this project, we introduce a new architecture paradigm, Terribly Tiny Transformers (T3) that focuses on making the model extremely tiny and highly packed with attention heads. We run experiments to answer the question: What if we allocate (nearly) all of the available processing resources to the attention heads in cases of resource crunch?. We miniaturize all benchmark models to establish a new FaithDial benchmark for resource-constrained settings. Further, we experimented with the loss function for training these tiny transformer models. The intuition behind searching for optimal/multiple losses for these models was to find an optimal training pipeline for these heavily under-parameterized. We experimented with additive contrastive learning for these tiny models to analyze if an attention-dense tiny model can achieve competitive results with regard to state-of-the-art miniaturized architecture designs. We also present extensive experimentation to land up on an optimal T3 design paradigm.
 ## Data
-The dataset is hosted on [Huggingface's datasets](https://github.com/huggingface/datasets):
+The dataset is hosted on [Huggingface's datasets](https://github.com/huggingface/datasets)
 
 ## Use with Huggingface
 T3 has been made available by the authors at
