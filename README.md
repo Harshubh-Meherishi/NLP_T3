@@ -72,7 +72,7 @@ as a binary classification task where the goal is to predict whether an utteranc
 ### Configs for ablation study
 The configs for ablation study are given in the [configs](configs/) folder. The naming order of the file are as they appear in the following table: 
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/Harshubh-Meherishi/NLP_T3/blob/main/Screenshot%202023-05-14%20at%2010.41.17%20PM.png)
 
 #### Training
 ```bash
