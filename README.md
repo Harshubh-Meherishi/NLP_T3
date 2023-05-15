@@ -85,4 +85,4 @@ python models/critic.py --model_name_or_path /path/to/model --eval_batch_size 16
 There is also a run_script ipnyb to streamline running all this code.
 
 #### NOTE 
-Files except generate.py,dialog.py,critic.py, and model_nce.py are taken as is from [https://github.com/McGill-NLP/FaithDial]{https://github.com/McGill-NLP/FaithDial} as helper codes. 
+Files except generate.py,dialog.py,critic.py, and model_nce.py are taken as is from [https://github.com/McGill-NLP/FaithDial] as helper codes. 
